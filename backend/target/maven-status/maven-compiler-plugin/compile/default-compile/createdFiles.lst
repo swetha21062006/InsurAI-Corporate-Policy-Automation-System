@@ -1,0 +1,9 @@
+com\z\insurance\InsuranceAiApplication.class
+com\z\insurance\model\Customer.class
+com\z\insurance\model\User.class
+com\z\insurance\controller\AuthController.class
+com\z\insurance\service\AuthService.class
+com\z\insurance\model\Agent.class
+com\z\insurance\model\Appointment.class
+com\z\insurance\model\Role.class
+com\z\insurance\repository\UserRepository.class
