@@ -1,19 +1,15 @@
 # Java
 /target/
-*.class
+*.log
 
-# Maven
-/.mvn/
-!.mvn/wrapper/maven-wrapper.jar
+# Node
+/node_modules/
+/frontend/node_modules/
 
-# IntelliJ
+# IDE
 /.idea/
 *.iml
 
-# Node
-/frontend/node_modules/
-/frontend/build/
-
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store

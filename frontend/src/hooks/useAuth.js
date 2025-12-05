@@ -1,6 +1,6 @@
-import { useSelector } from "react-redux";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 export default function useAuth() {
-  const user = useSelector((s) => s.auth.user);
-  return { user };
+  return useContext(AuthContext);
 }
